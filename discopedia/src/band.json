@@ -1,0 +1,148 @@
+[
+  {
+    "id": "1",
+    "img": "",
+    "name": "TOOL",
+    "genre": "Progressive Metal",
+    "geo": "Los Angeles (USA)",
+    "years": "1990- ",
+    "members": {
+      "song": "Maynard James Keenan",
+      "lead-guitar": "Adam Jones",
+      "bass": "Justin Chancellor ",
+      "drums": "Danny Carey "
+    }
+  },
+  {
+    "id": "2",
+    "img": "",
+    "name": "CHEVELLE ",
+    "genre": "Alternativ Metal",
+    "geo": "Chicago (USA)",
+    "years": "1995- ",
+    "members": {
+      "song": "Pete Loeffler / Lead-Guitar",
+      "bass": "Dean Bernardini",
+      "drums": "Sam Loeffler "
+    }
+  },
+  {
+    "id": "3",
+    "img": "",
+    "name": "KORN",
+    "genre": "Nu Metal",
+    "geo": "Bakersfield (USA)",
+    "years": "1993- ",
+    "members": {
+      "song": "Jonathan Davis",
+      "lead-guitar": "James 'Munky' Shaffer",
+      "guitar": "Brian 'Head' Welch",
+      "bass": "Reginald 'Fieldy' Arvizu",
+      "drums": "Ray Luzier"
+    }
+  },
+  {
+    "id": "4",
+    "img": "",
+    "name": "KATATONIA",
+    "genre": "Progressive Metal",
+    "geo": "Stockholm (SWE)",
+    "years": "1991- ",
+    "members": {
+      "song": "Jonas Renkse ",
+      "lead-guitar": "Anders Nyström",
+      "guitar": "Roger Öjersson ",
+      "bass": "Niklas Sandin",
+      "drums": "Daniel Moilanen "
+    }
+  },
+  {
+    "id": "5",
+    "img": "",
+    "name": "RAISED FIST",
+    "genre": "Hardcore",
+    "geo": "Luleå (SWE)",
+    "years": "1993- ",
+    "members": {
+      "song": "Alexander 'Alle' Hagman",
+      "lead-guitar": "Jimmy Tikkanen",
+      "guitar": "Daniel Holmgre",
+      "bass": "Andreas 'Josse' Johansson",
+      "drums": "Robert Wiiand "
+    }
+  },
+  {
+    "id": "6",
+    "img": "",
+    "name": "SOEN",
+    "genre": "Progressive Metal",
+    "geo": "Stockholm (SWE)",
+    "years": "2004- ",
+    "members": {
+      "song": "Joel Ekelöf",
+      "lead-guitar": "Lars Åhlund",
+      "guitar": "Cody Lee Ford",
+      "bass": "Oleksii 'Zlatoyar' Kobel ",
+      "drums": "Martín López "
+    }
+  },
+  {
+    "id": "7",
+    "img": "",
+    "name": "GOJIRA",
+    "genre": "Groove Metal",
+    "geo": "Ondres,Landes (FRA)",
+    "years": "2001- ",
+    "members": {
+      "song": "Joe Duplantier / Rhytm Guitar",
+      "lead-guitar": "Christian Andreu ",
+      "bass": "Jean-Michel Labadie",
+      "drums": "Mario Duplantier"
+    }
+  },
+  {
+    "id": "8",
+    "img": "",
+    "name": "LAMB OF GOD",
+    "genre": "Death Metal",
+    "geo": "Richmond (USA)",
+    "years": "1994- ",
+    "members": {
+      "song": "Randy Blythe",
+      "lead-guitar": "Mark Morton",
+      "guitar": "Willie Adler",
+      "bass": "John Campbell",
+      "drums": "Art Cruz"
+    }
+  },
+  {
+    "id": "9",
+    "img": "",
+    "name": "IN FLAMES",
+    "genre": "Progressive Metal",
+    "geo": "Gothemburg (SWE)",
+    "years": "1990- ",
+    "members": {
+      "song": "Anders Fridén",
+      "lead-guitar": "Björn Gelotte",
+      "guitar": "Chris Broderick",
+      "bass": "Bryce Paul",
+      "drums": "Tanner Wayne"
+    }
+  },
+  {
+    "id": "10",
+    "img": "",
+    "name": "A PERFECT CIRCLE",
+    "genre": "Alternativ Rock",
+    "geo": "Los Angelse (USA)",
+    "years": "1999- ",
+    "members": {
+      "song": "Maynard James Keenan",
+      "lead-guitar": "Billy Howerdel",
+      "guitar": "James Iha",
+      "bass": "Matt McJunkins",
+      "drums": "Jeff Friedl"
+    }
+  }
+]
