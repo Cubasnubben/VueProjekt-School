@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "img": "",
+    "img": "./assets/pics/tool.jpg",
     "name": "TOOL",
     "genre": "Progressive Metal",
     "geo": "Los Angeles (USA)",
@@ -135,7 +135,7 @@
     "img": "",
     "name": "A PERFECT CIRCLE",
     "genre": "Alternativ Rock",
-    "geo": "Los Angelse (USA)",
+    "geo": "Los Angeles (USA)",
     "years": "1999- ",
     "members": {
       "song": "Maynard James Keenan",
@@ -143,6 +143,35 @@
       "guitar": "James Iha",
       "bass": "Matt McJunkins",
       "drums": "Jeff Friedl"
+    }
+  },
+  {
+    "id": "11",
+    "img": "",
+    "name": "ONESIDEZERO ",
+    "genre": "Heavy Melodic Rock",
+    "geo": "Los Angeles (USA)",
+    "years": "1997- ",
+    "members": {
+      "song": "Jasan Radford",
+      "lead-guitar": "Levon Sultanian",
+      "guitar": "Brett Kane",
+      "bass": "Cristian Hernandez ",
+      "drums": "Rob Basile "
+    }
+  },
+  {
+    "id": "12",
+    "img": "",
+    "name": "DEFTONES ",
+    "genre": "Alternativ Metal",
+    "geo": "Sacramento (USA)",
+    "years": "1988- ",
+    "members": {
+      "song": "Chino Moreno",
+      "lead-guitar": "Stephen Carpenter",
+      "bass": "Fred Sablan",
+      "drums": "Abe Cunningham  "
     }
   }
 ]

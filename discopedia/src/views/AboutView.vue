@@ -1,15 +1,17 @@
+<script setup>
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<main class="container">
+  <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus commodi assumenda mollitia.</h1>
+</main>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+<style scoped>
+.container{
+  background-color: rgb(195, 81, 81);
+  padding:  100px;
+  margin: 100px auto;
 }
+
 </style>
