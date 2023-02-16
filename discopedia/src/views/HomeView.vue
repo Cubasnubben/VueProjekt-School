@@ -2,24 +2,50 @@
 import { RouterView } from 'vue-router'
 import bandData from "../band.json"
 //för uppdatering av jsonfil
-import { ref } from "vue"
+import { ref, watch } from "vue"
+import {useRouter} from "vue-router"
 
-
+const router = useRouter()
 
 const bands = ref(bandData)
+const genre = ref("")
 
+watch(genre, () => {
+  if(genre.value){
+    if(genre.value === "Alla") return bands.value = bandData;
+    else{
+      bands.value = bandData.filter(b => b.genre === genre.value)
+    }
+  }
+})
 </script>
 
+
+
+
 <template>
+  <h2>SÖK GENOM KATEGORI</h2>
+  <div class="bandsearch">
+    <select v-model="genre">
+      <option value="Alla">Alla</option>
+      <option value="Nu Metal">Nu Metal</option>
+      <option value="Hardcore">Hardcore</option>
+      <option value="Groove Metal">Groove Metal</option>
+      <option value="Death Metal">Death Metal</option>
+      <option value="Progressive Metal">Progressive Metal</option>
+      <option value="Alternativ Rock">Alternativ Rock</option>
+      <option value="Heavy Melodic Rock">Heavy Melodic Rock</option>
+    </select>
+  </div>
+
+
 
   <main class="container">
 
 
     <div class="cards">
-      <div v-for="band in bands" :key="band.id" class="card">
+      <div v-for="band in bands" :key="band.id" class="card" @click="router.push(`/band${band.id}`)">
         <h1>{{ band.name }}</h1>
-        <h3>{{ band.geo }}</h3>
-        <h5>{{ band.genre }}</h5>
       </div>
     </div>
 
@@ -30,6 +56,7 @@ const bands = ref(bandData)
 
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 .cards {
   display: flex;
   width: 1400px;
@@ -40,7 +67,7 @@ const bands = ref(bandData)
 
 .card {
   padding: 10px;
-  width: 350px;
+  width: 500px;
   margin-right: 35px;
   cursor: pointer;
   margin-bottom: 35px;
@@ -49,10 +76,24 @@ const bands = ref(bandData)
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 h1 {
   font-family: 'Rubik Vinyl', cursive;
-  color: rgb(246, 181, 181);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
+  text-align: center;;
+}
+
+.bandsearch{
+display: flex;
+justify-content: center;
+}
+h2{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+option{
+  font-family: 'Special Elite', cursive;
 }
 </style>
