@@ -61,6 +61,9 @@ img{
     align-items: flex-end;
     width: 200px;
     height: 200px;
+    margin-left: 25px;
+    margin-top: 8px;
+    border-radius: 15px;
 }
 
 h1{
