@@ -5,13 +5,13 @@
     "name": "TOOL",
     "genre": "Progressive Metal",
     "geo": "Los Angeles (USA)",
-    "years": "1990- ",
-    "members": {
-      "vocal": "Maynard James Keenan",
-      "lead-guitar": "Adam Jones",
-      "bass": "Justin Chancellor ",
-      "drums": "Danny Carey "
-    }
+    "years": "1990 ",
+    "members": [
+      { "vocal": "Maynard James Keenan" },
+      { "lead-guitar": "Adam Jones" },
+      { "bass": "Justin Chancellor " },
+      { "drums": "Danny Carey " }
+    ]
   },
   {
     "id": "2",
@@ -19,7 +19,7 @@
     "name": "CHEVELLE ",
     "genre": "Alternativ Metal",
     "geo": "Chicago (USA)",
-    "years": "1995- ",
+    "years": "1995 ",
     "members": {
       "vocal": "Pete Loeffler / Lead-Guitar",
       "bass": "Dean Bernardini",
@@ -32,7 +32,7 @@
     "name": "KORN",
     "genre": "Nu Metal",
     "geo": "Bakersfield (USA)",
-    "years": "1993- ",
+    "years": "1993 ",
     "members": {
       "vocal": "Jonathan Davis",
       "lead-guitar": "James 'Munky' Shaffer",
@@ -47,7 +47,7 @@
     "name": "KATATONIA",
     "genre": "Progressive Metal",
     "geo": "Stockholm (SWE)",
-    "years": "1991- ",
+    "years": "1991 ",
     "members": {
       "vocal": "Jonas Renkse ",
       "lead-guitar": "Anders Nyström",
@@ -62,7 +62,7 @@
     "name": "RAISED FIST",
     "genre": "Hardcore",
     "geo": "Luleå (SWE)",
-    "years": "1993- ",
+    "years": "1993 ",
     "members": {
       "vocal": "Alexander 'Alle' Hagman",
       "lead-guitar": "Jimmy Tikkanen",
@@ -77,7 +77,7 @@
     "name": "SOEN",
     "genre": "Progressive Metal",
     "geo": "Stockholm (SWE)",
-    "years": "2004- ",
+    "years": "2004 ",
     "members": {
       "vocal": "Joel Ekelöf",
       "lead-guitar": "Lars Åhlund",
@@ -92,7 +92,7 @@
     "name": "GOJIRA",
     "genre": "Groove Metal",
     "geo": "Ondres,Landes (FRA)",
-    "years": "2001- ",
+    "years": "2001 ",
     "members": {
       "vocal": "Joe Duplantier / Rhytm Guitar",
       "lead-guitar": "Christian Andreu ",
@@ -106,7 +106,7 @@
     "name": "LAMB OF GOD",
     "genre": "Death Metal",
     "geo": "Richmond (USA)",
-    "years": "1994- ",
+    "years": "1994 ",
     "members": {
       "vocal": "Randy Blythe",
       "lead-guitar": "Mark Morton",
@@ -121,7 +121,7 @@
     "name": "IN FLAMES",
     "genre": "Progressive Metal",
     "geo": "Gothemburg (SWE)",
-    "years": "1990- ",
+    "years": "1990 ",
     "members": {
       "vocal": "Anders Fridén",
       "lead-guitar": "Björn Gelotte",
@@ -136,7 +136,7 @@
     "name": "A PERFECT CIRCLE",
     "genre": "Alternativ Rock",
     "geo": "Los Angeles (USA)",
-    "years": "1999- ",
+    "years": "1999 ",
     "members": {
       "vocal": "Maynard James Keenan",
       "lead-guitar": "Billy Howerdel",
@@ -151,7 +151,7 @@
     "name": "ONESIDEZERO ",
     "genre": "Heavy Melodic Rock",
     "geo": "Los Angeles (USA)",
-    "years": "1997- ",
+    "years": "1997 ",
     "members": {
       "vocal": "Jasan Radford",
       "lead-guitar": "Levon Sultanian",
@@ -166,7 +166,7 @@
     "name": "DEFTONES ",
     "genre": "Alternativ Metal",
     "geo": "Sacramento (USA)",
-    "years": "1988- ",
+    "years": "1988 ",
     "members": {
       "vocal": "Chino Moreno",
       "lead-guitar": "Stephen Carpenter",

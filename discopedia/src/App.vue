@@ -13,3 +13,10 @@ import Footer from "./components/Footer.vue"
 <Footer />
 
 </template>
+
+<style>
+#app{
+background-color: rgb(139, 140, 138);
+
+}
+</style>

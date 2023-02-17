@@ -20,7 +20,7 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 h1{
@@ -33,7 +33,7 @@ p{
   margin: 20px auto;
   width: 900px;
   font-size: 30px;
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Special Elite', cursive;
   border-radius: 40px;
 }
 .card {
@@ -56,5 +56,21 @@ p{
 img{
   margin: 5px;
   border-radius: 10px;
+}
+
+@media all and (max-width:470px) {
+  .pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1{
+font-size: 30px;
+}
+p{
+  width: min-content;
+}
+
 }
 </style>

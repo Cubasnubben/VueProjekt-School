@@ -50,7 +50,7 @@ watch(genre, () => {
     </div>
 
   </main>
-  <RouterView />
+  <!-- <RouterView /> -->
 </template>
 
 
@@ -95,5 +95,9 @@ h2{
 }
 option{
   font-family: 'Special Elite', cursive;
+}
+
+@media all and (max-width: 470px){
+
 }
 </style>
