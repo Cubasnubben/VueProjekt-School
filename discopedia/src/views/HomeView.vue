@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView } from 'vue-router'
+
 import bandData from "../band.json"
 //för uppdatering av jsonfil
 import { ref, watch } from "vue"

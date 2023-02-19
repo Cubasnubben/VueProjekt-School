@@ -7,16 +7,16 @@ import Footer from "./components/Footer.vue"
 <template>
   <Navbar />
 
-<main>
-  <RouterView />
-</main>
-<Footer />
+  <main>
+    <RouterView />
+  </main>
+  <Footer />
 
 </template>
 
 <style>
 #app{
-background-color: rgb(139, 140, 138);
-
+background-color: rgb(178, 174, 168);
 }
+
 </style>

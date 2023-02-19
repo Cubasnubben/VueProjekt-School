@@ -9,3 +9,26 @@
     max-width: 500px;
     margin: 0 auto;
 }
+
+@media all and (max-width: 988px) {
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 300px;
+    align-items: center;
+}
+}
+@media all and (max-width: 388px) {
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 300px;
+    align-items: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+}
+}

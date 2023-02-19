@@ -15,8 +15,7 @@ band.value = bands.find(i => i.id === (id))
    <div v-if="band">
      <h1>BAND INFO</h1>
     <div class="card">
-    <img src="../assets/pics/korn.jpg" alt="korn">
-
+    <img src="../assets/pics/tool.jpg" alt="korn">
 
      <h2> <span>NAMN:</span> {{band.name}}</h2>
      <h2> <span>GENRE:</span> {{band.genre}}</h2>
@@ -61,7 +60,7 @@ img{
     align-items: flex-end;
     width: 200px;
     height: 200px;
-    margin-left: 25px;
+    margin-left: 7px;
     margin-top: 8px;
     border-radius: 15px;
 }
